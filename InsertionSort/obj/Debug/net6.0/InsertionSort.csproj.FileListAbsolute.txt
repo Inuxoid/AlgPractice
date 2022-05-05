@@ -1,0 +1,15 @@
+E:\CormenPractice\InsertionSort\bin\Debug\net6.0\InsertionSort.exe
+E:\CormenPractice\InsertionSort\bin\Debug\net6.0\InsertionSort.deps.json
+E:\CormenPractice\InsertionSort\bin\Debug\net6.0\InsertionSort.runtimeconfig.json
+E:\CormenPractice\InsertionSort\bin\Debug\net6.0\InsertionSort.dll
+E:\CormenPractice\InsertionSort\bin\Debug\net6.0\InsertionSort.pdb
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.csproj.AssemblyReference.cache
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.GeneratedMSBuildEditorConfig.editorconfig
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.AssemblyInfoInputs.cache
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.AssemblyInfo.cs
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.csproj.CoreCompileInputs.cache
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.dll
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\refint\InsertionSort.dll
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.pdb
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\InsertionSort.genruntimeconfig.cache
+E:\CormenPractice\InsertionSort\obj\Debug\net6.0\ref\InsertionSort.dll
