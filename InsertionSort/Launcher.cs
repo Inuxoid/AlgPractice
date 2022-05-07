@@ -14,8 +14,9 @@ internal class Launcher
     {
         A = IO.GetRandomArray(A);
         IO.PtintIntArray(A);
-        Calculations.InsertionSort(A);
+        Calculations.InsertionSortAsc(A);
+        IO.PtintIntArray(A);
+        Calculations.InsertionSortDesc(A);
         IO.PtintIntArray(A);
     }
 }
-
