@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-internal class Сalculations
+public class Calculations
 {
-    internal int[] InsertionSortAsc(int[] A)
+    public int[] InsertionSortAsc(int[] A)
     {
         int i;
         int j;
@@ -28,7 +28,7 @@ internal class Сalculations
         return A;
     }
 
-    internal int[] InsertionSortDesc(int[] A)
+    public int[] InsertionSortDesc(int[] A)
     {
         int i;
         int j;

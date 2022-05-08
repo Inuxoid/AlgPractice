@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 internal class Launcher
 {
-    int[] A = new int[10];
+    int[] A = new int[6];
     IO IO = new IO();
-    Сalculations Calculations = new Сalculations();
+    Calculations Calculations = new Calculations();
     internal void Launch()
     {
         A = IO.GetRandomArray(A);
