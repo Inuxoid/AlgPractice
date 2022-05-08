@@ -1,0 +1,15 @@
+E:\CormenPractice\LinearSearch\bin\Debug\net6.0\LinearSearch.exe
+E:\CormenPractice\LinearSearch\bin\Debug\net6.0\LinearSearch.deps.json
+E:\CormenPractice\LinearSearch\bin\Debug\net6.0\LinearSearch.runtimeconfig.json
+E:\CormenPractice\LinearSearch\bin\Debug\net6.0\LinearSearch.dll
+E:\CormenPractice\LinearSearch\bin\Debug\net6.0\LinearSearch.pdb
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.csproj.AssemblyReference.cache
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.GeneratedMSBuildEditorConfig.editorconfig
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.AssemblyInfoInputs.cache
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.AssemblyInfo.cs
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.csproj.CoreCompileInputs.cache
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.dll
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\refint\LinearSearch.dll
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.pdb
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\LinearSearch.genruntimeconfig.cache
+E:\CormenPractice\LinearSearch\obj\Debug\net6.0\ref\LinearSearch.dll
