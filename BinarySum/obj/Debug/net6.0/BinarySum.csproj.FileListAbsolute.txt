@@ -1,0 +1,15 @@
+E:\CormenPractice\BinarySum\bin\Debug\net6.0\BinarySum.exe
+E:\CormenPractice\BinarySum\bin\Debug\net6.0\BinarySum.deps.json
+E:\CormenPractice\BinarySum\bin\Debug\net6.0\BinarySum.runtimeconfig.json
+E:\CormenPractice\BinarySum\bin\Debug\net6.0\BinarySum.dll
+E:\CormenPractice\BinarySum\bin\Debug\net6.0\BinarySum.pdb
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.csproj.AssemblyReference.cache
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.GeneratedMSBuildEditorConfig.editorconfig
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.AssemblyInfoInputs.cache
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.AssemblyInfo.cs
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.csproj.CoreCompileInputs.cache
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.dll
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\refint\BinarySum.dll
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.pdb
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\BinarySum.genruntimeconfig.cache
+E:\CormenPractice\BinarySum\obj\Debug\net6.0\ref\BinarySum.dll
