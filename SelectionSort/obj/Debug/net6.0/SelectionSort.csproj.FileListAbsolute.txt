@@ -1,0 +1,15 @@
+E:\CormenPractice\SelectionSort\bin\Debug\net6.0\SelectionSort.exe
+E:\CormenPractice\SelectionSort\bin\Debug\net6.0\SelectionSort.deps.json
+E:\CormenPractice\SelectionSort\bin\Debug\net6.0\SelectionSort.runtimeconfig.json
+E:\CormenPractice\SelectionSort\bin\Debug\net6.0\SelectionSort.dll
+E:\CormenPractice\SelectionSort\bin\Debug\net6.0\SelectionSort.pdb
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.csproj.AssemblyReference.cache
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.GeneratedMSBuildEditorConfig.editorconfig
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.AssemblyInfoInputs.cache
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.AssemblyInfo.cs
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.csproj.CoreCompileInputs.cache
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.dll
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\refint\SelectionSort.dll
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.pdb
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\SelectionSort.genruntimeconfig.cache
+E:\CormenPractice\SelectionSort\obj\Debug\net6.0\ref\SelectionSort.dll
