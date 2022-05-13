@@ -1,0 +1,15 @@
+E:\CormenPractice\MergeSort\bin\Debug\net6.0\MergeSort.exe
+E:\CormenPractice\MergeSort\bin\Debug\net6.0\MergeSort.deps.json
+E:\CormenPractice\MergeSort\bin\Debug\net6.0\MergeSort.runtimeconfig.json
+E:\CormenPractice\MergeSort\bin\Debug\net6.0\MergeSort.dll
+E:\CormenPractice\MergeSort\bin\Debug\net6.0\MergeSort.pdb
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.csproj.AssemblyReference.cache
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.GeneratedMSBuildEditorConfig.editorconfig
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.AssemblyInfoInputs.cache
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.AssemblyInfo.cs
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.csproj.CoreCompileInputs.cache
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.dll
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\refint\MergeSort.dll
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.pdb
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\MergeSort.genruntimeconfig.cache
+E:\CormenPractice\MergeSort\obj\Debug\net6.0\ref\MergeSort.dll
