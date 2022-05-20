@@ -1,0 +1,15 @@
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.csproj.AssemblyReference.cache
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.AssemblyInfoInputs.cache
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.AssemblyInfo.cs
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.csproj.CoreCompileInputs.cache
+E:\CormenPractice\BinarySearch\bin\Debug\net6.0\BinarySearch.exe
+E:\CormenPractice\BinarySearch\bin\Debug\net6.0\BinarySearch.deps.json
+E:\CormenPractice\BinarySearch\bin\Debug\net6.0\BinarySearch.runtimeconfig.json
+E:\CormenPractice\BinarySearch\bin\Debug\net6.0\BinarySearch.dll
+E:\CormenPractice\BinarySearch\bin\Debug\net6.0\BinarySearch.pdb
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.dll
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\refint\BinarySearch.dll
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.pdb
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\BinarySearch.genruntimeconfig.cache
+E:\CormenPractice\BinarySearch\obj\Debug\net6.0\ref\BinarySearch.dll
