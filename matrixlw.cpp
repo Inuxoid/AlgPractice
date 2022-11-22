@@ -126,6 +126,17 @@ int** smooth_matrix(const int matrix_size, int** matrix)
     return smoothed_matrix;
 }
 
+void clean_memory(const int matrix_size, int** matrix, int** smoothed_matrix)
+{
+    for (int i = 0; i < matrix_size; i++){
+        delete[] matrix[i];
+    }
+
+    for (int i = 0; i < matrix_size; i++){
+        delete[] smoothed_matrix[i];
+    }
+}
+
 int main(int argc, char* argv[])
 {
     const std::string infile = "infile.txt";
@@ -141,8 +152,7 @@ int main(int argc, char* argv[])
     const int sum = find_sum(smoothed_matrix, matrix_size);
     print_numb(outfile, sum);
 
-    delete[] matrix;
-    delete[] smoothed_matrix;
-
+    clean_memory(matrix_size, matrix, smoothed_matrix);
+    
     return 0;
 }
