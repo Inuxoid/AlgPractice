@@ -1,30 +1,27 @@
 #include <fstream>
 #include <iostream>
 
-int** read_array(const std::string& file_name, int& matrix_size)
+int** read_array(std::ifstream &in, int& matrix_size)
 {
-    std::ifstream in(file_name);
-
-    if (!in.is_open())
+    if (in >> matrix_size)
     {
-        std::cerr << "Input file can not be opened\n"; // NOLINT(clang-diagnostic-invalid-pp-token)
-    }
+        std::cout << matrix_size << std::endl;
 
-    in >> matrix_size;
-    std::cout << matrix_size << std::endl;
+        const auto matrix = new int*[matrix_size];
+        for (int i = 0; i < matrix_size; i++)
+            matrix[i] = new int[matrix_size];
 
-    const auto matrix = new int*[matrix_size];
-    for (int i = 0; i < matrix_size; i++)
-        matrix[i] = new int[matrix_size];
-
-    for (int i = 0; i < matrix_size; i++)
-    {
-        for (int j = 0; j < matrix_size; j++)
+        for (int i = 0; i < matrix_size; i++)
         {
-            in >> matrix[i][j];
+            for (int j = 0; j < matrix_size; j++)
+            {
+                in >> matrix[i][j];
+            }
         }
+        return matrix;
     }
-    return matrix;
+    std::cerr << "Input file could not be opened or end of file reached\n"; // NOLINT(clang-diagnostic-invalid-pp-token)
+    return nullptr;
 }
 
 void print_matrix(const std::string& file_name, int** matrix, const int matrix_size)
@@ -78,49 +75,49 @@ int** smooth_matrix(const int matrix_size, int** matrix)
         for (int j = 0; j < matrix_size; j++)
         {
             int tmp = 0;
-            int col = 0;
+            int forNumb = 0;
             if (i > 0)
             {
                 tmp += matrix[i - 1][j];
-                col++;
+                forNumb++;
                 if (j > 0)
                 {
                     tmp += matrix[i - 1][j - 1];
-                    col++;
+                    forNumb++;
                 }
                 if (j < matrix_size - 1)
                 {
                     tmp += matrix[i - 1][j + 1];
-                    col++;
+                    forNumb++;
                 }
             }
             if (i < matrix_size - 1)
             {
                 tmp += matrix[i + 1][j];
-                col++;
+                forNumb++;
                 if (j > 0)
                 {
                     tmp += matrix[i + 1][j - 1];
-                    col++;
+                    forNumb++;
                 }
                 if (j < matrix_size - 1)
                 {
                     tmp += matrix[i + 1][j + 1];
-                    col++;
+                    forNumb++;
                 }
             }
 
             if (j > 0)
             {
                 tmp += matrix[i][j - 1];
-                col++;
+                forNumb++;
             }
             if (j < matrix_size - 1)
             {
                 tmp += matrix[i][j + 1];
-                col++;
+                forNumb++;
             }
-            smoothed_matrix[i][j] = tmp / col;
+            smoothed_matrix[i][j] = tmp / forNumb;
         }
     }
     return smoothed_matrix;
@@ -141,18 +138,27 @@ int main(int argc, char* argv[])
 {
     const std::string infile = "infile.txt";
     const std::string outfile = "outfile.txt";
+    std::ifstream in(infile);
     int matrix_size;
 
-    int** matrix = read_array(infile, matrix_size);
-    print_matrix(outfile, matrix, matrix_size);
+    while (true)
+        {
+        int** matrix = read_array(in, matrix_size);
+        if (matrix != nullptr)
+        {
+            print_matrix(outfile, matrix, matrix_size);
 
-    int** smoothed_matrix = smooth_matrix(matrix_size, matrix);
-    print_matrix(outfile, smoothed_matrix, matrix_size);
+            int** smoothed_matrix = smooth_matrix(matrix_size, matrix);
+            print_matrix(outfile, smoothed_matrix, matrix_size);
 
-    const int sum = find_sum(smoothed_matrix, matrix_size);
-    print_numb(outfile, sum);
+            const int sum = find_sum(smoothed_matrix, matrix_size);
+            print_numb(outfile, sum);
+            clean_memory(matrix_size, matrix, smoothed_matrix);
+            continue;
+        }
+        break;
+    }
 
-    clean_memory(matrix_size, matrix, smoothed_matrix);
-    
+    in.close();
     return 0;
 }
