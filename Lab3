@@ -1,0 +1,89 @@
+#include <fstream>
+#include <iostream>
+
+char* merge_char_string(char* final_string, const char* source1, const char* source2)
+{
+    int i = 0;
+    int k = 0;
+    while (source1[k] && source2[k])
+    {
+        final_string[i] = source1[k];
+        final_string[i+1] = source2[k];
+        i += 2;
+        k++;
+    }
+    while (source1[k])                 
+    {                                  
+        final_string[i] = source1[k];   
+        i++;                        
+        k++;                           
+    }                                     
+    while (source2[k])                 
+    {                                  
+        final_string[i] = source2[k];   
+        i++;                        
+        k++;                           
+    }
+    final_string[i + 1] = '\0';
+    return final_string;
+}
+
+std::string merge_string(const std::string &source1, const std::string &source2)
+{
+    int k = 0;
+    std::string final_string;
+    while (k < source1.size() && k < source2.size())
+    {
+        final_string.append(&source1[k], 1);
+        final_string.append(&source2[k], 1);
+        k++;
+    }
+    if (k < source1.size())
+    {
+        final_string.append(&source1[k]);
+    }
+    else if (k < source2.size())
+    {
+        final_string.append(&source2[k]); 
+    }
+    return final_string;
+}
+
+int main(int argc, char* argv[])
+{
+    int string1_length = 0;
+    int string2_length = 0;
+    int max_length = 0;
+    std::string file_path;
+    std::cin >> file_path;
+    std::ifstream in;
+    in.open(file_path);
+    if (!in.is_open()) {
+        std::cerr << "Can't open " << file_path << std::endl;
+        return 1;
+    }
+    while (in >> string1_length) {
+        char* source1_char = new char[string1_length + 1];
+        in.ignore();  
+        in.getline(source1_char, string1_length + 1, '\n');
+        std::cout << source1_char << std::endl;  
+        if (!(in >> string2_length)) break;
+        char* source2_char = new char[string2_length + 1];        
+        in.ignore(); 
+        in.getline(source2_char, string2_length + 1, '\n');
+        std::cout << source2_char << std::endl;   
+        max_length = string1_length + string2_length;
+        char* char_string = new char[max_length + 3];
+        
+        std::string source1 = source1_char;
+        std::string source2 = source2_char;
+        std::cout << max_length << std::endl;  
+        std::cout << merge_char_string(char_string, source1_char, source2_char) << std::endl;
+        std::cout << merge_string(source1, source2) << std::endl;
+        delete[] source1_char;
+        delete[] source2_char;
+        delete[] char_string;
+    }
+    in.close();
+    return 0;
+}
