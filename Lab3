@@ -24,7 +24,7 @@ char* merge_char_string(char* final_string, const char* source1, const char* sou
         i++;                        
         k++;                           
     }
-    final_string[i + 1] = '\0';
+    final_string[i] = '\0';
     return final_string;
 }
 
@@ -73,7 +73,7 @@ int main(int argc, char* argv[])
         in.getline(source2_char, string2_length + 1, '\n');
         std::cout << source2_char << std::endl;   
         max_length = string1_length + string2_length;
-        char* char_string = new char[max_length + 3];
+        char* char_string = new char[max_length + 1];
         
         std::string source1 = source1_char;
         std::string source2 = source2_char;
